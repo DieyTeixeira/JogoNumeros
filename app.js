@@ -11,7 +11,7 @@ function exibirMensagemInicial(){
 function exibirTextNaTela(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate: 1.2});
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Male', {rate: 1.2});
 }
 
 function verificarChute(){
